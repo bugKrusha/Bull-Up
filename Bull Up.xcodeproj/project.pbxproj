@@ -48,8 +48,8 @@
 /* Begin PBXFileReference section */
 		1B21196B1C7398EB003A18CE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1B4D863E1C5E315200364A0D /* QuotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesTableViewController.swift; sourceTree = "<group>"; };
-		1B4D86411C5E356F00364A0D /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTableViewController.swift; path = ../SearchTableViewController.swift; sourceTree = "<group>"; };
-		1B4D86431C5E35AB00364A0D /* QuotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuotesTableViewCell.swift; path = ../QuotesTableViewCell.swift; sourceTree = "<group>"; };
+		1B4D86411C5E356F00364A0D /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		1B4D86431C5E35AB00364A0D /* QuotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesTableViewCell.swift; sourceTree = "<group>"; };
 		1B4D86461C5E35DC00364A0D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		1BCA95E71C597030006AF1D0 /* Bull Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCA95EA1C597030006AF1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		1BCA96061C597030006AF1D0 /* Bull UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bull UpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCA960A1C597030006AF1D0 /* Bull_UpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bull_UpUITests.swift; sourceTree = "<group>"; };
 		1BCA960C1C597030006AF1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BCA96181C597065006AF1D0 /* UrlComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UrlComposer.swift; path = ../UrlComposer.swift; sourceTree = "<group>"; };
+		1BCA96181C597065006AF1D0 /* UrlComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlComposer.swift; sourceTree = "<group>"; };
 		1BCA961B1C5B87AA006AF1D0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1BCA961E1C5B8807006AF1D0 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		1BCA96201C5C09B9006AF1D0 /* StockManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockManager.swift; sourceTree = "<group>"; };
@@ -102,20 +102,20 @@
 			isa = PBXGroup;
 			children = (
 				1BCA96241C5CEB5A006AF1D0 /* SearchResult.swift */,
-				1BCA96201C5C09B9006AF1D0 /* StockManager.swift */,
 				1BCA96261C5CEBBC006AF1D0 /* Stock.swift */,
+				1BCA96201C5C09B9006AF1D0 /* StockManager.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		1B4D86401C5E32CD00364A0D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B4D86411C5E356F00364A0D /* SearchTableViewController.swift */,
 				1BDCCE011C6364B50086F8CE /* QuoteDetailViewController.swift */,
 				1B4D863E1C5E315200364A0D /* QuotesTableViewController.swift */,
+				1B4D86411C5E356F00364A0D /* SearchTableViewController.swift */,
 			);
-			name = "View Controllers";
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		1B4D86451C5E35B500364A0D /* Views */ = {
@@ -124,27 +124,27 @@
 				1B4D86431C5E35AB00364A0D /* QuotesTableViewCell.swift */,
 				1B4D86461C5E35DC00364A0D /* SearchTableViewCell.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1B4D86481C5E360400364A0D /* Others */ = {
 			isa = PBXGroup;
 			children = (
 				1BCA95F11C597030006AF1D0 /* Assets.xcassets */,
-				1BCA95F31C597030006AF1D0 /* LaunchScreen.storyboard */,
 				1BCA95F61C597030006AF1D0 /* Info.plist */,
+				1BCA95F31C597030006AF1D0 /* LaunchScreen.storyboard */,
 			);
-			name = Others;
+			path = Others;
 			sourceTree = "<group>";
 		};
 		1BCA95DE1C597030006AF1D0 = {
 			isa = PBXGroup;
 			children = (
-				1B21196B1C7398EB003A18CE /* .gitignore */,
 				1BCA95E91C597030006AF1D0 /* Bull Up */,
 				1BCA95FE1C597030006AF1D0 /* Bull UpTests */,
 				1BCA96091C597030006AF1D0 /* Bull UpUITests */,
 				1BCA95E81C597030006AF1D0 /* Products */,
+				1B21196B1C7398EB003A18CE /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,14 +161,14 @@
 		1BCA95E91C597030006AF1D0 /* Bull Up */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA961D1C5B87B0006AF1D0 /* API */,
+				1B4D863D1C5DAFDF00364A0D /* Model */,
+				1B4D86481C5E360400364A0D /* Others */,
+				1BCA961A1C597075006AF1D0 /* Utilities */,
+				1B4D86401C5E32CD00364A0D /* View Controllers */,
+				1B4D86451C5E35B500364A0D /* Views */,
 				1BCA95EA1C597030006AF1D0 /* AppDelegate.swift */,
 				1BCA95EE1C597030006AF1D0 /* Main.storyboard */,
-				1B4D86451C5E35B500364A0D /* Views */,
-				1B4D86401C5E32CD00364A0D /* View Controllers */,
-				1B4D863D1C5DAFDF00364A0D /* Model */,
-				1BCA961A1C597075006AF1D0 /* Utilities */,
-				1BCA961D1C5B87B0006AF1D0 /* API */,
-				1B4D86481C5E360400364A0D /* Others */,
 			);
 			path = "Bull Up";
 			sourceTree = "<group>";
@@ -194,10 +194,10 @@
 		1BCA961A1C597075006AF1D0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				1BCA96181C597065006AF1D0 /* UrlComposer.swift */,
 				1BCA961E1C5B8807006AF1D0 /* Protocols.swift */,
+				1BCA96181C597065006AF1D0 /* UrlComposer.swift */,
 			);
-			name = Utilities;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		1BCA961D1C5B87B0006AF1D0 /* API */ = {
@@ -206,7 +206,7 @@
 				1BCA961B1C5B87AA006AF1D0 /* NetworkManager.swift */,
 				1BCA96221C5C1632006AF1D0 /* Parser.swift */,
 			);
-			name = API;
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +395,7 @@
 				1BCA95EF1C597030006AF1D0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		1BCA95F31C597030006AF1D0 /* LaunchScreen.storyboard */ = {
@@ -403,6 +404,7 @@
 				1BCA95F41C597030006AF1D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -495,7 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bull Up/Info.plist";
+				INFOPLIST_FILE = "Bull Up/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IOBI.Bull-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,7 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bull Up/Info.plist";
+				INFOPLIST_FILE = "Bull Up/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IOBI.Bull-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
