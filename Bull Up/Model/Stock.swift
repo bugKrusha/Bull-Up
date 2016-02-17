@@ -22,7 +22,7 @@ struct Stock {
     var ebitda = ""
     var priceChange = ""
     var currency = ""
-    var price = ""
+    var price = "N/A"
     var percentChange: (change: String, isPositive: Bool?) = ("--", nil)
     
     init(quote: [String: AnyObject]) {
